@@ -2,7 +2,7 @@ import dash
 # from dash.dependencies import Input, Output
 import dash_core_components as dcc
 import dash_html_components as html
-from GrapherV3 import ResultReader
+from flighttracker_grapher import ResultReader
 
 ## ------------------------------------- ##
 Reader = ResultReader()
